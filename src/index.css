@@ -39,6 +39,9 @@ a{
 ul{
   list-style: none;
 }
+img{
+  max-width: 100%;
+}
 /* --- Container --- */
 .container {
 padding-left: 15px;
