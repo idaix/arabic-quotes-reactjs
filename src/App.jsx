@@ -13,7 +13,7 @@ const App = () => {
       <div className="container">
         <Routes>
           <Route path="/" element={<Home qFont={qFont} />} />
-          <Route path="/store" element={<Store />} />
+          <Route path="/store" element={<Store qFont={qFont} />} />
         </Routes>
       </div>
     </div>

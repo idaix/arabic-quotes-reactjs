@@ -5,3 +5,6 @@
 
 ### Home Page
 ![home](./screenshots/home.png)
+
+### See more
+![seemore](./screenshots/seemore.png)

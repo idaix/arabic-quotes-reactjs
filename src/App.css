@@ -36,12 +36,24 @@
     z-index: 9;
 }
 .navbar__main{
-    background: #383838;
+    /* background: #383838; */
+    background: #ffffff10;
+    backdrop-filter: blur(12px);
     width: 80%;
     height: 80%;
     margin: auto;
     border-radius: 30px;
     padding: 30px;
+    position: relative;
+}
+
+.by-dai{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+
+    width: 100%;
+    text-align: center;
 }
 
 .navbar__main-list{

@@ -24,6 +24,8 @@ const Navbar = ({ setQFont }) => {
                       <li onClick={() => {setQFont(item.className); setIsOpen(false)}} key={i} className={item.className}>بالخط العربي</li>
                   ))}
               </ul>
+
+              <span className="by-dai">Dai Chekkal</span>
             </div>
           </div>
         )}

@@ -12,6 +12,8 @@ import {
     risk,
     sadness
 } from "../data";
+
+
 const categories = [
     beauty,
     coffee,
@@ -26,6 +28,8 @@ const categories = [
     risk,
     sadness
 ]
+
+
 let countOfCategories = 11
 
 export const getRandomQuate = () => {
@@ -44,4 +48,26 @@ export const getRandomQuate = () => {
     return categories[randomCategory][randomQuate]
 
     
+}
+
+
+
+const listCtagories = {
+    beauty: beauty,
+    coffee: coffee,
+    friendship: friendship,
+    habits: habits,
+    happiness: happiness,
+    life: life,
+    loneliness: loneliness,
+    love: love,
+    marriage: marriage,
+    night: night,
+    risk: risk,
+    sadness: sadness
+}
+
+
+export const getQuote = (category) => {
+    return listCtagories[category]
 }
